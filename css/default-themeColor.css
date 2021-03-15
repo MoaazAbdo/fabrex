@@ -1,0 +1,47 @@
+/*** Start Default Theme ***/
+.span-color, .upper .one .fas, .upper .two .fab:hover,
+.mynavbar .navbar-light .navbar-nav .active,
+.our_services  .content .inner-box .icon,
+.our_services  .content .inner-box .inner-content h6 a:hover,
+.projects .list li.active ,
+.team .content .our-team .social .fab:hover,
+.testimonials .owl-carousel .item .fas,
+.recent .card .card-body .card-title a:hover {
+    color: #86bc42
+}
+
+.slider .carousel-inner .carousel-caption .btn,
+.slider .carousel-control .fas:hover,
+.our_services .header .head::after,
+.about-us .about-info .btn,
+.projects .header .head::after,
+.projects .overlay .over-content h5::after,
+.counter-up .start::after,
+.team .header .head::after,
+.testimonials .head::after,
+.recent .head::after,
+.footer h5::after,
+.footer .social i:hover,
+.footer .news span    {
+    background-color: #86bc42;
+}
+
+
+.slider .carousel-control .fas:hover,
+.projects .list li.active,
+.footer .social i:hover  { 
+    border: 1px solid #86bc42;
+}
+
+
+.footer .social i:hover {
+    cursor: pointer
+}
+
+.choose-color {
+    border: 2px solid #232323
+}
+.choose-color .setting-icon {
+    background-color: #232323
+}
+/*** End Default Theme ***/

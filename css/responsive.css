@@ -1,0 +1,87 @@
+/* Start Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    .dropdown-toggle::after {
+        position: absolute;
+        top: 18px;
+        right: 26px
+    }
+    .mynavbar .searchList .fas {
+        position: relative;
+        top: 6px;
+        margin-right: 10px;
+       
+    }
+
+    .about-us .about-img img {
+        margin-bottom: 35px
+    }
+
+    .counter-up .start {
+        margin-bottom: 23px
+    }
+    
+}
+/* End Medium devices (tablets, less than 992px) */
+
+/* Start Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) { 
+    .upper .two {
+        display: none
+    }
+    .slider .carousel-inner .carousel-caption .head {
+        font-weight: 700;
+        margin-bottom: 50px;
+        font-size: 30px;
+        letter-spacing: 1.5px
+    }
+    .slider .carousel-inner .carousel-caption p {
+        letter-spacing: 1px;
+        font-weight: 500;
+        line-height: 1.7;
+    }
+    .slider .carousel-inner .carousel-caption .btn, .about-us .about-info .btn {
+        padding: 7px 12px;
+        font-size: 14px
+    }
+    .our_services .header p ,.projects .header p, .recent .header p {
+        font-size: 14px 
+    }
+    .our_services .content .inner-box .inner-content p, .recent .card .card-body .card-text {
+        font-size: 14px
+    }
+
+    .projects .list li {
+        font-size: 14px
+    }
+    .counter-up .start h4 {
+        font-size: 20px
+    }
+    .counter-up .counter-box h4, .counter-up .counter-box p {
+        font-size: 15px
+    }
+    
+    .testimonials .owl-carousel .item p {
+        width: 100%;
+        font-size: 15px
+    }
+}
+/* End Small devices (landscape phones, less than 768px)*/
+
+/* Start Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .about-us .about-info li {
+        font-size: 14px
+    }
+    .team .content .our-team .team-member-img {
+        display: flex;
+        justify-content: center;
+    }
+    .team .content .our-team .team-member-img img {
+        height: 400px;
+        margin-bottom: 10px
+    }
+    .footer .p1, .copy p {
+        font-size: 14px
+    }
+}
+/* End  Extra small devices (portrait phones, less than 576px) */
